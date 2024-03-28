@@ -1,7 +1,5 @@
-
-console.log('ello')
-
+console.log('ello');
+let root = document.getElementById('root');
 const sometext = document.createElement('p');
-sometext.textContent = "This is from a JavaScript file";
-
-document.body.appendChild(sometext);
+sometext.textContent = "This is from a javascript file";
+root.appendChild(sometext);
